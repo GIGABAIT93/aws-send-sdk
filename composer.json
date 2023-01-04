@@ -1,6 +1,8 @@
 {
   "name": "awsc/awsc-send-sdk",
   "description": "Laravel library",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
   "keywords": [
     "awsc",
     "awsc-send-sdk"
