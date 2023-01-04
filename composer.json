@@ -4,8 +4,7 @@
   "minimum-stability": "stable",
   "prefer-stable": true,
   "keywords": [
-    "awsc",
-    "awsc-send-sdk"
+    "awsc"
   ],
   "homepage": "https://github.com/aws/aws-send-sdk",
   "license": "MIT",
@@ -21,6 +20,9 @@
     "psr-4": {
       "Aws\\AwsSendSdk\\": "src"
     }
+  },
+  "config": {
+    "sort-packages": true
   },
   "extra": {
     "laravel": {
