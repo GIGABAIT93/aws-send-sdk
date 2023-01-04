@@ -1,9 +1,9 @@
 {
-  "name": "aws/aws-send-sdk",
+  "name": "awsc/awsc-send-sdk",
   "description": "Laravel library",
   "keywords": [
-    "aws",
-    "aws-send-sdk"
+    "awsc",
+    "awsc-send-sdk"
   ],
   "homepage": "https://github.com/aws/aws-send-sdk",
   "license": "MIT",
