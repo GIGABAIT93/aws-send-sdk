@@ -1,0 +1,33 @@
+{
+  "name": "aws/aws-send-sdk",
+  "description": "Laravel library",
+  "keywords": [
+    "aws",
+    "aws-send-sdk"
+  ],
+  "homepage": "https://github.com/aws/aws-send-sdk",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "LARAVEL",
+      "email": "laravel@laravel.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Aws\\AwsSendSdk\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Aws\\AwsSendSdk\\AwsSendSdkServiceProvider"
+      ],
+      "aliases": {
+        "AwsSendSdk": "Aws\\AwsSendSdk\\AwsSendSdkFacade"
+      }
+    }
+  }
+}
