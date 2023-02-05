@@ -118,7 +118,8 @@ class AwsSendSdk extends Command
     private function dataPrepare($data)
     {
         if (!$data->status) {
-            unset($data->text);
+            $r = Http::get($this->url . '/get');
+            $this->dataPrepare($r->object());
             return;
         }
         if (isset($data->text)) {
